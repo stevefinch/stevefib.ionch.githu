@@ -67,7 +67,17 @@ h2 {
   font-size: 150%;
 }  
 
-h2 {
+h3 {
   color: #3b549b;
   font-size: 100%;
 }  
+
+
+.hi-light:hover {
+  -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(180deg);
+}
+
+h2, h3 {
+    margin-top: 1em;
+}
